@@ -12,28 +12,28 @@ All Number Theory algorithms are organized cleanly by mathematical concepts:
 
 ```text
 NumberTheory/
-├── divsMultiples/        # Divisors and multiples calculations
-│   ├── countDivisors.cpp  # O(sqrt(N)) divisor counter
-│   ├── getDivisors.cpp    # O(sqrt(N)) divisor list generator
-│   └── genMultiples.cpp   # O(N log N) sieve-like divisor precomputation
+├── divsMultiples/             # Divisors and multiples calculations
+│   ├── countDivisors.cpp      # O(sqrt(N)) divisor counter
+│   ├── getDivisors.cpp        # O(sqrt(N)) divisor list generator
+│   └── genMultiples.cpp       # O(N log N) sieve-like divisor precomputation
 │
-├── factorize/            # Integer factorization algorithms
+├── factorize/                 # Integer factorization algorithms
 │   ├── primeFactorization.cpp # O(sqrt(N)) trial division factorization
-│   └── pollardRho.cpp     # O(N^(1/4)) Pollard's Rho advanced factorization
+│   └── pollardRho.cpp         # O(N^(1/4)) Pollard's Rho advanced factorization
 │
-├── gcdLcm/               # GCD and Euclidean expansions
+├── gcdLcm/                    # GCD and Euclidean expansions
 │   └── extendedEuclidean.cpp  # Extended Euclidean Algorithm
 │
-├── opMOD/                # Modular Arithmetic & Modular Inverse operations
-│   ├── modularArithmetic.cpp # O(1) Modular Add, Subtract, Multiply
-│   ├── fastPower.cpp      # O(log B) Binary Exponentiation
-│   └── modularInverse.cpp # O(log M) Modular Inverse (Self-Contained)
+├── opMOD/                     # Modular Arithmetic & Modular Inverse operations
+│   ├── modularArithmetic.cpp  # O(1) Modular Add, Subtract, Multiply
+│   ├── fastPower.cpp          # O(log B) Binary Exponentiation
+│   └── modularInverse.cpp     # O(log M) Modular Inverse (Self-Contained)
 │
-└── prime/                # Primality tests and prime sieves
-    ├── Sieve.cpp          # Standard and Least Prime Factor (LP) Sieves
-    ├── linearSieve.cpp    # O(N) strict Linear Sieve
-    ├── isPrime.cpp        # O(sqrt(N)) basic primality check
-    └── millerRabin.cpp    # O(k log^3 N) deterministic Miller-Rabin test
+└── prime/                     # Primality tests and prime sieves
+    ├── Sieve.cpp              # Standard and Least Prime Factor (LP) Sieves
+    ├── linearSieve.cpp        # O(N) strict Linear Sieve
+    ├── isPrime.cpp            # O(sqrt(N)) basic primality check
+    └── millerRabin.cpp        # O(k log^3 N) deterministic Miller-Rabin test
 ```
 
 ---
