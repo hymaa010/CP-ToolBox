@@ -16,15 +16,19 @@ NumberTheory/
 │   ├── countDivisors.cpp  # O(sqrt(N)) divisor counter
 │   ├── getDivisors.cpp    # O(sqrt(N)) divisor list generator
 │   └── genMultiples.cpp   # O(N log N) sieve-like divisor precomputation
+│
 ├── factorize/            # Integer factorization algorithms
 │   ├── primeFactorization.cpp # O(sqrt(N)) trial division factorization
 │   └── pollardRho.cpp     # O(N^(1/4)) Pollard's Rho advanced factorization
+│
 ├── gcdLcm/               # GCD and Euclidean expansions
 │   └── extendedEuclidean.cpp  # Extended Euclidean Algorithm
+│
 ├── opMOD/                # Modular Arithmetic & Modular Inverse operations
 │   ├── modularArithmetic.cpp # O(1) Modular Add, Subtract, Multiply
 │   ├── fastPower.cpp      # O(log B) Binary Exponentiation
 │   └── modularInverse.cpp # O(log M) Modular Inverse (Self-Contained)
+│
 └── prime/                # Primality tests and prime sieves
     ├── Sieve.cpp          # Standard and Least Prime Factor (LP) Sieves
     ├── linearSieve.cpp    # O(N) strict Linear Sieve
