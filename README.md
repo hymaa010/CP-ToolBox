@@ -2,6 +2,9 @@
 
 Welcome to my personal, optimized repository of algorithms and templates for competitive programming. This repository is built for **speed, reliability, and correctness**. 
 
+<img width="1456" height="720" alt="cover" src="https://github.com/user-attachments/assets/c65079f8-6499-4f3e-8718-aa01f71646cd" />
+
+
 Every template is designed to be **completely self-contained**, allowing for instant copy-pasting directly into contest environments without worrying about missing headers or helper functions.
 
 ---
