@@ -1,4 +1,4 @@
-# ⚡ Competitive Programming Templates & Algorithms ⚡
+# ⚡ Competitive Programming Toolbox ⚡
 
 Welcome to my personal, optimized repository of algorithms and templates for competitive programming. This repository is built for **speed, reliability, and correctness**. 
 
