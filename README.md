@@ -1,6 +1,9 @@
-# ⚡ Competitive Programming Templates & Algorithms ⚡
+# Competitive Programming Toolbox
 
 Welcome to my personal, optimized repository of algorithms and templates for competitive programming. This repository is built for **speed, reliability, and correctness**. 
+
+<img width="1456" height="720" alt="cover" src="https://github.com/user-attachments/assets/c65079f8-6499-4f3e-8718-aa01f71646cd" />
+
 
 Every template is designed to be **completely self-contained**, allowing for instant copy-pasting directly into contest environments without worrying about missing headers or helper functions.
 
@@ -12,24 +15,28 @@ All Number Theory algorithms are organized cleanly by mathematical concepts:
 
 ```text
 NumberTheory/
-├── divsMultiples/        # Divisors and multiples calculations
-│   ├── countDivisors.cpp  # O(sqrt(N)) divisor counter
-│   ├── getDivisors.cpp    # O(sqrt(N)) divisor list generator
-│   └── genMultiples.cpp   # O(N log N) sieve-like divisor precomputation
-├── factorize/            # Integer factorization algorithms
+├── divsMultiples/             # Divisors and multiples calculations
+│   ├── countDivisors.cpp      # O(sqrt(N)) divisor counter
+│   ├── getDivisors.cpp        # O(sqrt(N)) divisor list generator
+│   └── genMultiples.cpp       # O(N log N) sieve-like divisor precomputation
+│
+├── factorize/                 # Integer factorization algorithms
 │   ├── primeFactorization.cpp # O(sqrt(N)) trial division factorization
-│   └── pollardRho.cpp     # O(N^(1/4)) Pollard's Rho advanced factorization
-├── gcdLcm/               # GCD and Euclidean expansions
+│   └── pollardRho.cpp         # O(N^(1/4)) Pollard's Rho advanced factorization
+│
+├── gcdLcm/                    # GCD and Euclidean expansions
 │   └── extendedEuclidean.cpp  # Extended Euclidean Algorithm
-├── opMOD/                # Modular Arithmetic & Modular Inverse operations
-│   ├── modularArithmetic.cpp # O(1) Modular Add, Subtract, Multiply
-│   ├── fastPower.cpp      # O(log B) Binary Exponentiation
-│   └── modularInverse.cpp # O(log M) Modular Inverse (Self-Contained)
-└── prime/                # Primality tests and prime sieves
-    ├── Sieve.cpp          # Standard and Least Prime Factor (LP) Sieves
-    ├── linearSieve.cpp    # O(N) strict Linear Sieve
-    ├── isPrime.cpp        # O(sqrt(N)) basic primality check
-    └── millerRabin.cpp    # O(k log^3 N) deterministic Miller-Rabin test
+│
+├── opMOD/                     # Modular Arithmetic & Modular Inverse operations
+│   ├── modularArithmetic.cpp  # O(1) Modular Add, Subtract, Multiply
+│   ├── fastPower.cpp          # O(log B) Binary Exponentiation
+│   └── modularInverse.cpp     # O(log M) Modular Inverse (Self-Contained)
+│
+└── prime/                     # Primality tests and prime sieves
+    ├── Sieve.cpp              # Standard and Least Prime Factor (LP) Sieves
+    ├── linearSieve.cpp        # O(N) strict Linear Sieve
+    ├── isPrime.cpp            # O(sqrt(N)) basic primality check
+    └── millerRabin.cpp        # O(k log^3 N) deterministic Miller-Rabin test
 ```
 
 ---
@@ -61,6 +68,6 @@ Here is a quick reference of the available algorithms, their functions, and thei
 1. **Standalone Copy-Pasting:** 
    Every template file starts with standard C++ headers and is 100% self-contained. For example, `modularInverse.cpp` already contains copies of `fastPower` and the `extended_eculidean_algorithm` so you do not need to piece multiple files together.
 2. **Double check constraints:**
-   * For standard numbers $\le 10^9$, use standard trial division ($O(\sqrt{N})$).
+   * For standard numbers $\le 10^9$, use standard trial division $O(\sqrt{N})$.
    * For numbers $\le 10^{18}$, make sure to use `millerRabin.cpp` and `pollardRho.cpp`.
    * For modular inverses, use `mod_inverse_ecludien` if the modulo is composite, and `inverse` (Fermat's) if the modulo is prime.
