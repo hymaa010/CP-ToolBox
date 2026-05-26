@@ -61,6 +61,6 @@ Here is a quick reference of the available algorithms, their functions, and thei
 1. **Standalone Copy-Pasting:** 
    Every template file starts with standard C++ headers and is 100% self-contained. For example, `modularInverse.cpp` already contains copies of `fastPower` and the `extended_eculidean_algorithm` so you do not need to piece multiple files together.
 2. **Double check constraints:**
-   * For standard numbers $\le 10^9$, use standard trial division ($O(\sqrt{N})$).
+   * For standard numbers $\le 10^9$, use standard trial division $O(\sqrt{N})$.
    * For numbers $\le 10^{18}$, make sure to use `millerRabin.cpp` and `pollardRho.cpp`.
    * For modular inverses, use `mod_inverse_ecludien` if the modulo is composite, and `inverse` (Fermat's) if the modulo is prime.
